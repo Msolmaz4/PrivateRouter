@@ -1,6 +1,44 @@
-.App{
-  background-color: aqua;
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
+.Home{
+  height: 60px;
+  width: 140px;
+  background-color: transparent;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.Account{
+  
+    height: 60px;
+    width: 140px;
+    background-color: transparent;
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 25px;
+  
+}
+.Signup{
+  height: 60px;
+  width: 140px;
+  background-color: transparent;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
 
 
 

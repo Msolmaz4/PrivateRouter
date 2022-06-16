@@ -4,6 +4,7 @@ import {BrowserRouter as Router ,Link,Routes ,Route} from 'react-router-dom'
 import Home from './Home'
 import Signup from "./Signup";
 import Account from './Account'
+import ProductRouter from "./ProductRouter";
 
 
 
@@ -19,9 +20,12 @@ function App() {
 <Link to='/account'>Account</Link>
 </div>
 <Routes>
+<Route path="/signup" element={<Signup/>}/>
+ 
+  <Route element={<ProductRouter/>}>
   <Route path='/' element={<Home/>}/>
-  <Route path="/signup" element={<Signup/>}/>
-  <Route path="/account" element={<Account/>}/>
+   <Route path="/account" element={<Account/>}/>
+  </Route>
   </Routes>
  </Router>
 
